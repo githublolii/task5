@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product List</title>
+  <style>
+    body {
+      background-color: pink;
+      text-align: center;
+    }
+    h2 {
+      color: white;
+    }
+    products {
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Makeup Product List </h2>
+  <p id="MakeupProducts"></p>
+
+  <script>
+    var products = ["Moisturiser","Concealer","Foundation","Lipstick","Blush","Cleanser","Toner","Serum","Sunscreen"];
+
+    document.getElementById("MakeupProducts").innerText = products;
+  </script>
+</body>
+</html>
